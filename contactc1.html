@@ -341,6 +341,50 @@
         center: {lat: 49.314566, lng: -123.113640},
         zoom: 15
       });
+      var marker1 = new google.maps.Marker({
+        map: map1,
+        position: {lat: 48.658266, lng: -123.414486},
+        title: 'Leitch and McBride Sailmakers Sidney'
+      });
+      var marker2 = new google.maps.Marker({
+        map: map2,
+        position: {lat: 49.314458, lng: -123.113381},
+        title: 'Leitch and McBride Sailmakers North Vancouver'
+      });
+      var infowindow1 = new google.maps.InfoWindow({
+        content: (
+          '<div><strong>' + 'Leitch & McBride Sails Ltd' + '</strong><br>' +
+          '10189 McDonald Park Rd' + '<br>' +
+          'Sidney BC' + '<br>' + 
+          '(250) 656-0751' + '</div>'
+        ),
+        maxWidth: 200
+      });  
+      var infowindow2 = new google.maps.InfoWindow({
+        content: (
+          '<div><strong>' + 'Leitch & McBride Sails Ltd' + '</strong><br>' +
+          '1381 McKeen Ave' + '<br>' +
+          'North Vancouver BC' + '<br>' + 
+          '(604) 983-9866' + '</div>');
+        ),
+        maxWidth: 200
+      });  
+      google.maps.event.addListener(marker1, 'click', function() {
+        infowindow1.setContent('<div><strong>' + 'Leitch & McBride Sails Ltd' + '</strong><br>' +
+          '10189 McDonald Park Rd' + '<br>' +
+          'Sidney BC' + '<br>' + 
+          '(250) 656-0751' + '</div>');
+        infowindow1.open(map1, marker1);
+      });
+      google.maps.event.addListener(marker2, 'click', function() {
+        infowindow2.setContent('<div><strong>' + 'Leitch & McBride Sails Ltd' + '</strong><br>' +
+          '1381 McKeen Ave' + '<br>' +
+          'North Vancouver BC' + '<br>' + 
+          '(604) 983-9866' + '</div>');
+        infowindow2.open(map2, marker2);
+      });
+
+
     }
   </script>
 
