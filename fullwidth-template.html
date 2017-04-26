@@ -10,12 +10,16 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 <!-- Style sheets -->
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" type="text/css" href="css/menusm.css" />
-<link href="css/skeleton.css" rel="stylesheet" type="text/css" />
-<link href="css/layout.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+<link type="text/css" rel="stylesheet" href="css/menusm.css" />
+<link type="text/css" rel="stylesheet" href="css/skeleton.css" />
+<link type="text/css" rel="stylesheet" href="css/layout.css" />
+
+<!-- Scripts -->
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/menusm.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript" src="js/tinynav.min.js"></script>
 
 <!-- PrettyPhoto Starts -->
 <link rel="stylesheet" type="text/css" href="prettyPhoto/css/prettyPhoto.css" />
@@ -37,14 +41,11 @@
 <script src="twitter_tweet/jquery.tweet.js" charset="utf-8"></script>
 <!-- DC Twitter End -->
 
-<script type="text/javascript" src="js/scripts.js"></script>
-
 <!-- Config User Intarface Box Import START -->
 <script type="text/javascript" src="js/head_html_default_block.js"></script>
 <script type="text/javascript" src="js/head_html_block.js"></script>
 <!-- Config User Intarface Box Import END -->
 
-<script type="text/javascript" src="js/tinynav.min.js"></script>
 <script type="text/javascript">
 	$(function () {
 		$('#menu-top-menu').tinyNav({
@@ -53,20 +54,20 @@
 		});
 	});
 </script>
+
 </head>
+
+
 <body>
-<div class="body_pattern">
-  <div class="container">
-    <div class="main">
-      <div class="header">
-        <div class="sixteen columns">
-          <div class="header_resize first"> 
-            <!-- logo -->
-            <div class="logo">
-              <div><a href="index.html"><span>Eivee</span></a></div>
-              <p>Premium Creative/Agency </p>
-            </div>
-            <!-- logo --> 
+  <div class="body_pattern">
+    <div class="container">
+      <div class="main">
+        <div class="header">
+          <div class="sixteen columns">
+            <div class="header_resize first"> 
+              <!--logo is attached to this div-->                
+            </div> 
+
           </div>
         </div>
         <div class="clr"></div>
@@ -239,10 +240,8 @@
                 <h2><span>Latest Tweets</span></h2>
                 <!-- DC Twitter Start -->
                 <!-- Generate your own embedded timeline: https://dev.twitter.com/docs/embedded-timelines --> 
-          <a class="twitter-timeline" href="https://twitter.com/DevCodes" data-widget-id="346557522754293760" width="98%" height="200" data-chrome="nofooter noheader transparent noscrollbar" data-
-theme="dark" data-link-color="#ccc">Tweets</a> 
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p
-+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          <a class="twitter-timeline" href="https://twitter.com/DevCodes" data-widget-id="346557522754293760" width="98%" height="200" data-chrome="nofooter noheader transparent noscrollbar" data-theme="dark" data-link-color="#ccc">Tweets</a> 
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                 <!-- DC Twitter End --> 
               </div>
             </div>
@@ -294,5 +293,6 @@ theme="dark" data-link-color="#ccc">Tweets</a>
     </div>
   </div>
 </div>
+
 </body>
 </html>
