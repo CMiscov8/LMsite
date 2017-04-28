@@ -50,10 +50,12 @@
 	$(function () {
 		$('#menu-top-menu').tinyNav({
 			active: 'selected',
-			header: 'Navigation' 
+			header: 'Pick' 
 		});
 	});
 </script>
+
+
 
 </head>
 
@@ -66,7 +68,7 @@
         <div class="header">
           <div class="sixteen columns">
             <div class="header_resize first"> 
-              <!--logo is attached to this div-->                
+              <!--logo is attached to the background of this div-->                
             </div> 
           </div>
         </div>
@@ -76,12 +78,63 @@
 
         <div class="sixteen columns">
           <div class="header_resize second"> 
+            
             <!-- menu edit in file "js/menu_html_block.js" -->
-            <div class="menu"> 
+            <!-- <div class="menu"> 
               <script type="text/javascript" src="js/menu_html_block.js"></script> 
+            </div> -->
+            <div class="menu">
+              <ul class="menusm" id="menu-top-menu">
+                <li><a href="index.html"><span>Home</span></a></li>
+                <li><a href="#" class="menu_navigation"><span>About</span></a>
+                  <ul>                  
+                    <li><a href="about.html" class="menu_navigation"><span>About Us</span></a></li>
+                    <li><a href="team.html" class="menu_navigation"><span>The Team</span></a></li>
+                    <li><a href="eventswesupport.html" class="menu_navigation"><span>Community</span></a></li>
+                  </ul>
+                </li>                  
+                <li><a href="#" class="menu_navigation"><span>Sails</span></a>
+                  <ul>
+                    <li><a href="measurementforms.html" target="_blank" class="menu_navigation"><span>Measurement Forms</span></a></li>
+                    <li><a href="cruisingsails.html" class="menu_navigation"><span>Cruising Sails</span></a></li>
+                    <li><a href="racingsails.html" class="menu_navigation"><span>Racing Sails</span></a></li>
+                    <li><a href="smallboat.html" class="menu_navigation"><span>Small Boat</span></a></li>
+
+                    <li><a href="#" class="menu_navigation"><span>Other</span></a>
+                        <ul>
+                          <li><a href="fastpack.html" class="menu_navigation"><span>Fastpack</span></a></li>
+                          <li><a href="repairs.html" class="menu_navigation"><span>Sail repairs</span></a></li>
+                          <li><a href="materials.html" class="menu_navigation"><span>Materials</span></a></li>
+                        </ul>
+                    </li>
+                  </ul>      
+                </li>  
+                <li><a href="#" class="menu_navigation"><span>Resources</span></a>
+                  <ul>
+                    <li><a href="links.html" class="menu_navigation"><span>Links</span></a></li>
+                    <li><a href="faqs.html" class="menu_navigation"><span>FAQs</span></a></li>
+                    <li><a href="news.html" class="menu_navigation"><span>News</span></a></li>
+                  </ul>
+                </li>  
+                  <li><a href="#" class="menu_navigation"><span>Gallery</span></a>
+                    <ul>
+                      <li><a href="gallery1/index.html" target="_blank" class="menu_navigation"><span>Sail Repair</span></a></li>
+                      <li><a href="gallery2/index.html" target="_blank" class="menu_navigation"><span>The FastPack System</span></a></li>
+                      <li><a href="gallery3/index.html" target="_blank" class="menu_navigation"><span>Materials</span></a></li>
+                      <li><a href="gallery4/index.html" target="_blank" class="menu_navigation"><span>Racing</span></a></li>
+                      <li><a href="gallery5/index.html" target="_blank" class="menu_navigation"><span>Cruising</span></a></li>
+                      <li><a href="gallery6/index.html" target="_blank" class="menu_navigation"><span>Small Boat</span></a></li>
+                      <li><a href="gallery7/index.html" target="_blank" class="menu_navigation"><span>The Loft</span></a></li>
+                      <li><a href="gallery8/index.html" target="_blank" class="menu_navigation"><span>Red and White</span></a></li>
+                    </ul>
+                  </li>
+                  <li><a href="contact.html" class="menu_navigation"><span>Contact</span></a></li>
+                </ul>
+                <div class="clr"></div>
+
             </div>
             <!-- /menu --> 
-            <!-- /menu --> 
+
             <script type="text/javascript">
             function changePage(page)
             {
@@ -89,7 +142,7 @@
             }
             </script> 
             <!--start small navigation-->
-            <div class="smallnav">
+            <!--<div class="smallnav">
               <select id="selectnav1" class="selectnav" onchange="changePage(this.value);">
                 <option value="">- Navigation -</option>
                 <option selected="" value="index.html">Home</option>
@@ -99,7 +152,7 @@
                 <option value="services.html">→ Services</option>
                 <option value="contact.html">Contact</option>
               </select>
-            </div>
+            </div>-->
           </div>
         </div>
         <div class="clr"></div>
