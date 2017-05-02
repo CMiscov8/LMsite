@@ -38,7 +38,7 @@
 @media (min-width: 550px) {
   .column,
   .columns {
-    margin-left: 4%; }
+    margin-left: 2%; }
 }
 
 /* Base Styles
@@ -53,6 +53,18 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+h1 { color:#8a8a8a; text-transform:uppercase; text-align:center; }
+h1 span {color:#bbbbbb; font-size:1.2rem; font-style:italic; font-weight:normal; line-height:1em;  text-transform:none;  display:block; }
+h2 { width:auto; color:#8a8a8a; text-align:left; text-transform:uppercase; }
+h2 span { color:#8a8a8a; }
+h2 a { color:#8a8a8a; }
+h3 { color:#8a8a8a; text-transform:uppercase; }
+h3 span { color:#989898; font-size:1.1rem; display:block; }
+h3 a { color:#8a8a8a; }
+h3 a:hover { color:#8a8a8a; }
+h3 span a:hover { color:#8a8a8a; }
+
+
 /* Larger than phablet */
 @media (min-width: 550px) {
   p { font-size: 1.5rem; }
@@ -63,6 +75,8 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+a {
+  color: #d38036; }
 
 
 

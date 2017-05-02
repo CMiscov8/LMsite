@@ -1,0 +1,46 @@
+/* Non-Skelly Styles
+for Leitch and McBride Website
+Q1 2017 */
+
+
+.separator { clear:both; margin:35px auto; padding:0px 0 0px 0; width:100%; height:1px; background:url(../images/sep.png) repeat-x top left; }
+
+.body_pattern { background: url(../images/bg_19.jpg) repeat top center;}
+
+.header { margin:0 auto; padding:0 0 0px 0; }
+
+.header_resize { margin:0 auto; padding:0px 25px 0px 25px; min-height:132px; }
+
+.header_resize.first { background:url(../images/header_bg.png) no-repeat top center;}
+
+.header_resize.second {background:url(../images/main_bg.png) repeat-y top center;  min-height:90px;}
+
+
+
+
+
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
