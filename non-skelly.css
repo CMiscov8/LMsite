@@ -1,0 +1,178 @@
+/* Non-Skelly Styles
+for Leitch and McBride Website
+Q1 2017 */
+
+
+.separator { clear:both; margin:35px auto; padding:0px 0 0px 0; width:100%; height:1px; background:url(../images/sep.png) repeat-x top left; }
+.body_pattern { background: url(../images/bg_19.jpg) repeat top center; }
+.twelve.columns { background-color: white; }
+
+
+
+/* Header */
+
+.header.header_resize.first { background:url(../images/header_bg1.png) no-repeat top center; min-height:132px; }
+.header.header_resize.second { background:url(../images/mobile-header_bg.png) repeat-y top center;  min-height:90px; }
+
+@media (min-width: 550px) {
+	.header.header_resize.first { background:url(../images/header_bg.png) no-repeat top center; }
+}
+
+@media (min-width: 750px) {
+	.header.header_resize.first { background:url(../images/header_bg2.png) no-repeat top center; }
+}
+
+
+/*  These are the options from layout - seem wacky, though.
+			 (max-width: 479px)
+					.header .header_resize.first { background:url(../images/header_bg1.png) no-repeat top center;}			 
+			 (min-width: 480px) and (max-width: 767px)
+							.header .header_resize.first { background:url(../images/mobile-header_bg.png) no-repeat top center;}
+			 (min-width: 768px) and (max-width: 959px) 
+					.header .header_resize.first { background:url(../images/header_bg2.png) no-repeat top center;}
+
+*/
+
+
+
+/* Menus */
+
+.menu { padding-bottom: 0px; border-bottom: 1px solid #DFDFDF; background: none; }
+.menu .menusm { display: none; }
+.menu .tinynav { padding: 3px 0 3px; margin: 0 auto 15px auto; width: 100%; display: block;  }
+
+@media (min-width: 550px) {
+	.menu .tinynav { display: none; }
+	.menu .menusm { display: block; }
+}
+
+
+
+/* Banner (now_page) */
+
+.now_page_resize { padding-bottom:30px; }
+
+
+
+
+/* Content Box heading? */
+
+.content_box h2 { line-height: 30px; }
+
+@media (min-width: 550px) {
+	.content_box h2 { line-height: auto; }
+}
+
+
+
+/* Three icons in banner */
+
+h3.h3_act_href { clear:both; width:100%; display:block; font-size:1.4rem; }
+h3.h3_act_href a span,h3.h3_act_href a{ color:#8a8a8a; text-decoration:none; display: block; } 
+h3.h3_act_href a:hover span,h3.h3_act_href a:hover{color:#d38036; text-decoration: none; }
+
+h3.h3_act_href a.ico_1 { padding-left:90px; background:url(../images/ico-01.png) no-repeat left top; }
+h3.h3_act_href a.ico_1:hover { background:url(../images/ico_a-01.png) no-repeat left top; }
+
+h3.h3_act_href a.ico_2 { padding-left:90px; background:url(../images/ico-02.png) no-repeat left top; }
+h3.h3_act_href a.ico_2:hover { background:url(../images/ico_a-02.png) no-repeat left top; }
+
+h3.h3_act_href a.ico_3 { padding-left:90px; background:url(../images/ico-03.png) no-repeat left top; }
+h3.h3_act_href a.ico_3:hover { background:url(../images/ico_a-03.png) no-repeat left top; }
+
+h3.h3_act_href a.ico_4 { padding-left:90px; background:url(../images/ico-04.png) no-repeat left top; }
+h3.h3_act_href a.ico_4:hover { background:url(../images/ico_a-04.png) no-repeat left top; }
+
+p.p_act_href {padding:5px 0 0 90px; font-size: 1.2rem; }
+
+@media (min-width: 550px) {
+	h3.h3_act_href { clear: both; width:100%; display:block; font-size: 1.4rem; }
+	p.p_act_href {padding:5px 0 0 90px; font-size: 1.2rem; }
+}
+
+
+
+/* Effects for photos */
+
+
+.pic img { padding:3px; background:#fff; border:1px solid #f0f0f0; max-width: 100%; height: auto;} /* for photo border */
+.pic a { margin-bottom:15px; }
+.pic a:hover img {background:#efefef; max-width: 100%;} /* fading when hovered */
+
+
+.pic.fl { margin:5px 20px 10px 0; }
+.pic.fr { margin:5px 0 20px 10px; }
+
+
+.img_hover_box.pic a { display: block; position: relative; } 
+.img_hover_box.pic a img { margin:0; max-width: 100%; height: auto; }
+.img_hover_box.pic a img.h { position: absolute; top: 0; left: 0; visibility:hidden; background:none; border:none; } /* hidden until hovered */
+.img_hover_box.pic a:hover img.h { visibility:visible; } /* overlay becomes visible when hovered */
+
+
+
+/* Quotes and Testimonials  */
+
+.note p {
+	color:#8d8d8d; 
+	font-size:14px;
+	font-style:italic; 
+	font-weight:normal;
+	padding:0 0 0 70px;
+	background:url(../images/quote.png) no-repeat left top;
+}
+
+
+/* prefooter */
+
+.prefooter { padding:30px 20px; background:url(../images/main_bg.png) repeat-y top center; }
+.prefooter_resize { padding:0px; border-top:8px solid #efefef; }
+
+@media (min-width: 550px) {
+	.prefooter_resize { padding:30px 0px 0px 30px; }
+}
+
+
+
+
+/* footer */
+
+.footer { background:url(../images/footer_bg.png) no-repeat bottom center; min-height:250px; }
+.footer_resize { padding:20px 0px 20px; border-top:1px solid #efefef;  border-bottom:1px solid #efefef; }
+.footer a { color:#8d8d8d; }
+.footer p { text-align:center; color:#8d8d8d; }
+.footer .logo { padding:30px 0 150px; margin:0; }
+
+
+
+/* Bottom logo and link */
+
+.logo { padding:60px 0 0; }
+.logo div { text-align:center; }
+.logo p { line-height:1.4em; color:#8d8d8d; display:block; font-style:italic; text-transform:none; text-align:center; }
+
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}

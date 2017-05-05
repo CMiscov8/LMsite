@@ -1,0 +1,187 @@
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+
+/* This file contains any adjustments to the original Skeleton v2.0.4
+* specific to the Leitch & McBride website 
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Grid
+- Base Styles
+- Typography
+- Links
+- Buttons
+- Forms
+- Lists
+- Code
+- Tables
+- Spacing
+- Utilities
+- Clearing
+- Media Queries
+*/
+
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .column,
+  .columns {
+    margin-left: 2%; }
+}
+
+/* Base Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* NOTE
+html is set to 62.5% so that all the REM measurements throughout Skeleton
+are based on 10px sizing. So basically 1.5rem = 15px :) */
+
+
+
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+h1 { color:#8a8a8a; text-transform:uppercase; text-align:center; }
+h1 span {color:#bbbbbb; font-size:1.4rem; font-style:italic; font-weight:normal; line-height:1em; text-transform:none; display:block; }
+
+h2 { width:auto; font-size: 2.4rem; color:#8a8a8a; text-align:left; text-transform:uppercase; }
+h2 span { color:#8a8a8a; }
+h2 a { color:#8a8a8a; }
+
+h3 { font-size: 1.0rem; color:#8a8a8a; text-transform:uppercase; }
+h3 span { font-size:1.1rem; color:#989898; display:block; }
+
+h3 a { color:#8a8a8a; }
+h3 a:hover { color:#8a8a8a; }
+h3 span a:hover { color:#8a8a8a; text-decoration: none; }
+
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+  h2 { font-size: 3.0rem; }
+  h3 { font-size: 1.6rem; }
+  p { font-size: 1.5rem; }
+}
+
+
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+a {
+  color: #d38036; }
+
+
+
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  padding: 0;
+  color: #ef313b;
+  font-size: 14px;
+  font-weight: bold;
+  border: 1px solid #ececec; }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #d38036;
+  border-color: 2px;
+  outline: 0; }
+
+/* Forms
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+
+/* Lists
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+
+/* Code
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+
+/* Tables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+
+/* Spacing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+
+/* Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+
+/* Misc
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+/* Clearing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Self Clearing Goodness */
+
+
+
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries
+near the relevant code. For example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it
+there.
+*/
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
