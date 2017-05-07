@@ -3,14 +3,35 @@ for Leitch and McBride Website
 Q1 2017 */
 
 
-.separator { clear:both; margin:35px auto; padding:0px 0 0px 0; width:100%; height:1px; background:url(../images/sep.png) repeat-x top left; }
+.separator { clear:both; padding:30px 0; width:100%; height:1px; background:url(../images/sep.png) repeat-x left; }
 .body_pattern { background: url(../images/bg_19.jpg) repeat top center; }
-.twelve.columns { background-color: white; }
+.content, .prefooter { background-color: white; }
 
 
 
 /* Header */
 
+.header { background:url(../images/header_curve500.png) no-repeat top center; background-size: cover; min-height:100px; }
+.header .logo { padding-top:40px; }
+
+@media (min-width: 550px) and (max-width: 749px) {
+	.header { background:url(../images/header_curve1000.png) no-repeat top center; background-size: cover; min-height:110px; }
+	.header .logo { padding-top:40px; }
+}
+
+@media (min-width: 750px) and (max-width: 999px) {
+	.header { padding:90px 0 30px; background:url(../images/header_curve750.png) no-repeat center; background-size: cover; }
+	.header .logo { padding-top:0px; }
+}
+
+@media (min-width: 1000px) {
+	.header { padding:90px 0 30px; background:url(../images/header_curve1000.png) no-repeat center; background-size: cover; min-height:100px; }
+	.header .logo { padding-top:40px; }
+}
+
+
+
+/*
 .header.header_resize.first { background:url(../images/header_bg1.png) no-repeat top center; min-height:132px; }
 .header.header_resize.second { background:url(../images/mobile-header_bg.png) repeat-y top center;  min-height:90px; }
 
@@ -21,7 +42,7 @@ Q1 2017 */
 @media (min-width: 750px) {
 	.header.header_resize.first { background:url(../images/header_bg2.png) no-repeat top center; }
 }
-
+*/
 
 /*  These are the options from layout - seem wacky, though.
 			 (max-width: 479px)
@@ -50,18 +71,12 @@ Q1 2017 */
 
 /* Banner (now_page) */
 
-.now_page_resize { padding-bottom:30px; }
-
-
-
-
-/* Content Box heading? */
-
-.content_box h2 { line-height: 30px; }
+.now_page { padding-bottom:15px; }
 
 @media (min-width: 550px) {
-	.content_box h2 { line-height: auto; }
+	.now_page { padding-bottom:30px; }
 }
+
 
 
 
@@ -77,8 +92,8 @@ Q1 2017 */
 .banner-icon3 a:hover { background:url(../images/ico_a-03.png) no-repeat left top; }
 
 h4 { text-decoration: none; }
-h4.a span, h4.a { text-decoration:none; display: block; }
-h4.a:hover span, h4.a:hover; { text-decoration: none; }
+h4 a span, h4 a { text-decoration:none; display: block; }
+h4 a:hover span, h4 a:hover; { text-decoration: none; }
 
 .banner-text { width: 66%; float:right; }
 .banner-text p {font-size: 1.2rem; }
@@ -159,11 +174,12 @@ p.p_act_href {padding:5px 0 0 90px; font-size: 1.2rem; }
 
 /* prefooter */
 
-.prefooter { padding:30px 20px; background:url(../images/main_bg.png) repeat-y top center; }
-.prefooter_resize { padding:0px; border-top:8px solid #efefef; }
+.prefooter { padding:30px 20px; border-top:8px solid #efefef; }
+/* .prefooter_resize { padding:0px; border-top:8px solid #efefef; }  */
 
 @media (min-width: 550px) {
-	.prefooter_resize { padding:30px 0px 0px 30px; }
+	.prefooter { padding:30px 0px 0px 30px; }
+	/*.prefooter_resize { padding:30px 0px 0px 30px; }*/
 }
 
 
@@ -171,17 +187,16 @@ p.p_act_href {padding:5px 0 0 90px; font-size: 1.2rem; }
 
 /* footer */
 
-.footer { background:url(../images/footer_bg.png) no-repeat bottom center; min-height:250px; }
-.footer_resize { padding:20px 0px 20px; border-top:1px solid #efefef;  border-bottom:1px solid #efefef; }
+.footer { border-top:1px solid #efefef; border-bottom:1px solid #efefef; padding-top:20px; background:url(../images/footer_bg.png) no-repeat bottom center; min-height:250px; }
 .footer a { color:#8d8d8d; }
-.footer p { text-align:center; color:#8d8d8d; }
+.footer p { text-align:center; font-size: 1.2rem; color:#8d8d8d; }
 .footer .logo { padding:30px 0 150px; margin:0; }
 
 
 
-/* Bottom logo and link */
+/* Bottom logo and link    .logo { padding:60px 0 0; }   */
 
-.logo { padding:60px 0 0; }
+
 .logo div { text-align:center; }
 .logo p { line-height:1.4em; color:#8d8d8d; display:block; font-style:italic; text-transform:none; text-align:center; }
 
