@@ -60,18 +60,24 @@ h2 { width:auto; font-size: 2.4rem; color:#8a8a8a; text-align:left; text-transfo
 h2 span { color:#8a8a8a; }
 h2 a { color:#8a8a8a; }
 
-h3 { font-size: 1.0rem; color:#8a8a8a; text-transform:uppercase; }
-h3 span { font-size:1.1rem; color:#989898; display:block; }
-
+h3 { font-size: 2.0rem; color:#8a8a8a; text-transform:uppercase; }
+h3 span { font-size: 1.8rem; color:#989898; display:block; }
 h3 a { color:#8a8a8a; }
 h3 a:hover { color:#8a8a8a; }
 h3 span a:hover { color:#8a8a8a; text-decoration: none; }
+
+h4 { font-size: 1.2rem; color:#8a8a8a; text-transform:uppercase; text-decoration: none; }
+h4 span { font-size: 1.0rem; color:#989898; display:block; }
+h4 a { color:#8a8a8a; }
+h4 a:hover { color:#8a8a8a; }
+h4 span a:hover { color:#8a8a8a; text-decoration: none; }
 
 
 /* Larger than phablet */
 @media (min-width: 550px) {
   h2 { font-size: 3.0rem; }
-  h3 { font-size: 1.6rem; }
+  h3 { font-size: 2.4rem; }
+  h4 { font-size: 1.4rem; }
   p { font-size: 1.5rem; }
 }
 
