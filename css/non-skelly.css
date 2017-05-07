@@ -5,16 +5,24 @@ Q1 2017 */
 
 .separator { clear:both; padding:30px 0; width:100%; height:1px; background:url(../images/sep.png) repeat-x left; }
 .body_pattern { background: url(../images/bg_19.jpg) repeat top center; }
-.header .logo, .header .menu, .content, .prefooter { background-color: white; }
+.header .logo, .header .menu, .content, .prefooter, .footer .logo { background-color: white; }
 
 
 
-/* Header */
+/* Header and Footer curves and logos */
 
-.header .header_curve { max-width: 100%; }
 .header .menu { padding-top: 10px; }
 
+.logo div { text-align:center; }
+.logo p { line-height:1.4em; font-size: 1.0rem; color:#8d8d8d; display:block; font-style:italic; text-transform:none; text-align:center; }
+.logo .made p { margin:0; }
 
+.footer .logo { padding-top:30px; }
+
+@media (min-width: 550px) {
+	.logo p { font-size: 1.2rem; }
+	.footer .logo { padding-top: 50px; }
+}
 
 
 /* Menus */
@@ -100,30 +108,15 @@ h4 a:hover span, h4 a:hover; { text-decoration: none; }
 /* prefooter */
 
 .prefooter { padding:30px 20px; border-top:8px solid #efefef; }
-/* .prefooter_resize { padding:0px; border-top:8px solid #efefef; }  */
 
 @media (min-width: 550px) {
 	.prefooter { padding:30px 0px 0px 30px; }
-	/*.prefooter_resize { padding:30px 0px 0px 30px; }*/
 }
 
 
 
 
-/* footer */
 
-.footer { border-top:1px solid #efefef; border-bottom:1px solid #efefef; padding-top:20px; background:url(../images/footer_bg.png) no-repeat bottom center; min-height:250px; }
-.footer a { color:#8d8d8d; }
-.footer p { text-align:center; font-size: 1.2rem; color:#8d8d8d; }
-.footer .logo { padding:30px 0 150px; margin:0; }
-
-
-
-/* Bottom logo and link    .logo { padding:60px 0 0; }   */
-
-
-.logo div { text-align:center; }
-.logo p { line-height:1.4em; color:#8d8d8d; display:block; font-style:italic; text-transform:none; text-align:center; }
 
 
 /* Media Queries
